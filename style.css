@@ -1,0 +1,34 @@
+html {
+    background-color: red;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.sidenav{
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.sidenav li{
+    margin: 0px 2%;
+}
+
+.left, .right, .bottom {
+    min-height: 20vh;
+    background-color: darkgray;
+}
+
+
+
+.container {
+    
+    display: flex;
+}
